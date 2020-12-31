@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chess</title>
+  <link rel="stylesheet" href="css/chessboard-1.0.0.css">
+
+</head>
+
+<body>
+  <div id="myBoard" style="width: 400px"></div>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+  <script src="js/chessboard-1.0.0.js"></script>
+  <script>
+    var pos = '5rk1/1p3ppp/pq3b2/8/8/1P1Q1N2/P4PPP/3R2K1 w - - 2 27';
+    var board = Chessboard('myBoard', pos)
+  </script>
+  <img src="img/chesspieces/wikipedia/wP.png"
+    id="ed23-9da3-a897-eee5-c2b1-d855-0946-70f7" alt="" class="piece-417db"
+    data-piece="wP" style="width: 49px; height: 49px; display: none;">
+</body>
+
+</html>
